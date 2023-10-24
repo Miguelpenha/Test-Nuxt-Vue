@@ -1,12 +1,12 @@
 <script setup lang="ts">
   const config = useRuntimeConfig()
 
-  useServerHead({
+  useHead({
     link: [
       { href: '/img/favicon.ico', rel: 'shortcut icon', type: 'image/x-icon' }
     ]
   })
-  useServerSeoMeta({
+  useSeoMeta({
     twitterSite: '@MglPenha',
     title: 'Test Nuxt and Vue',
     twitterCreator: '@MglPenha',
