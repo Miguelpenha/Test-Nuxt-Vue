@@ -1,0 +1,27 @@
+button {
+    width: 12em;
+    border: none;
+    display: flex;
+    padding: 0.8em;
+    cursor: pointer;
+    margin-top: 10%;
+    color: #00DC82;
+    font-size: 1.5em;
+    font-weight: bold;
+    align-self: center;
+    text-align: center;
+    align-items: center;
+    border-radius: 20px;
+    transform: scale(0.95);
+    transition-duration: 0.2s;
+    border: 3px solid #00DC82;
+    transition-timing-function: linear;
+}
+
+button:hover {
+    transform: scale(1);
+}
+
+button>.text {
+    margin: auto;
+}
