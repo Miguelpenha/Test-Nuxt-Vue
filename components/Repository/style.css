@@ -1,11 +1,21 @@
-div {
+.container {
     width: 15em;
     padding: 1em;
+    display: flex;
     margin-top: 2em;
-    color: #f2f2f2;
-    font-weight: bold;
     align-self: center;
     border-radius: 20px;
+    flex-direction: column;
     background-color: #1e293b;
-    transition-timing-function: linear;
+}
+
+.container>.title {
+    font-size: 1em;
+    font-weight: bold;
+}
+
+.container>.description {
+    color: #f2f2f2;
+    margin-top: 0.5em;
+    font-weight: normal;
 }
