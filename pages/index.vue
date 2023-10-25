@@ -20,4 +20,4 @@
       Repository
     }
   }
-</script>../components/useRepositories../components/useRepositories/useRepositories
+</script>
