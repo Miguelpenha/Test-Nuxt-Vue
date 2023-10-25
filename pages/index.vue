@@ -21,8 +21,10 @@
   })
 
   function handleClick() {
-    if (repoIndex.value === null || repoIndex.value === repositories.value!.length-1) {
+    if (repoIndex.value === null) {
       repoIndex.value = 0
+    } else if (repoIndex.value === repositories.value!.length-1) {
+      repoIndex.value = null
     } else {
       repoIndex.value++
     }
