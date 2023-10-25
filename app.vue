@@ -18,8 +18,16 @@
 
 <style>
   * {
-    background-color: #020420;
+    margin: 0;
+    padding: 0;
+    color: #00DC82;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
     font-family: 'Roboto', sans-serif;
+  }
+
+  body {
+    background-color: #020420;
   }
 </style>
 

@@ -1,5 +1,5 @@
 button {
-    width: 12em;
+    width: 10em;
     border: none;
     display: flex;
     padding: 0.8em;
@@ -15,6 +15,7 @@ button {
     transform: scale(0.95);
     transition-duration: 0.2s;
     border: 3px solid #00DC82;
+    background-color: #020420;
     transition-timing-function: linear;
 }
 
