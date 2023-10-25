@@ -1,11 +1,11 @@
 div {
-    width: 10em;
+    width: 15em;
     padding: 1em;
     margin-top: 1em;
     color: #f2f2f2;
     font-weight: bold;
     align-self: center;
     border-radius: 20px;
-    background-color: #ed3237;
+    background-color: #1e293b;
     transition-timing-function: linear;
 }

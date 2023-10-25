@@ -34,6 +34,13 @@
   }
 </script>
 
+<style>
+  * {
+    background-color: #020420;
+    font-family: 'Roboto', sans-serif;
+  }
+</style>
+
 <style scoped>
   main {
     padding: 1em;
