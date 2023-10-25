@@ -1,23 +1,4 @@
 <script setup lang="ts">
-  const config = useRuntimeConfig()
-
-  useHead({
-    link: [
-      { href: '/img/favicon.ico', rel: 'shortcut icon', type: 'image/x-icon' }
-    ]
-  })
-  useSeoMeta({
-    twitterSite: '@MglPenha',
-    title: 'Test Nuxt and Vue',
-    twitterCreator: '@MglPenha',
-    ogUrl:  config.public.domain,
-    ogTitle: 'Test Nuxt and Vue',
-    description: 'Test Nuxt and Vue',
-    twitterCard: 'summary_large_image',
-    ogDescription: 'Test Nuxt and Vue',
-    ogImage: `${config.public.domain}/img/thumbnail.png`
-  })
-  
   const { data: repositories } = useFetch<IRepository[]>('/api/repositories')
   const repoIndex: Ref<number | null> = ref(null)
 
@@ -66,6 +47,10 @@
 </script>
 
 <style scoped>
+  * {
+    font-family: 'Roboto', sans-serif;
+  }
+
   button {
     width: 10em;
     border: none;
