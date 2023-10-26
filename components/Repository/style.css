@@ -3,10 +3,18 @@
     padding: 1em;
     display: flex;
     margin-top: 2em;
+    cursor: pointer;
     align-self: center;
     border-radius: 20px;
+    text-decoration: none;
     flex-direction: column;
+    transition-duration: 0.2s;
     background-color: #1e293b;
+    transition-timing-function: linear;
+}
+
+.container:hover {
+    box-shadow: #00DC82 0px 4px 20px 5px;
 }
 
 .container>.title {
