@@ -8,6 +8,12 @@
   import useSeo from './components/useSeo'
 
   useSeo()
+
+  useHead({
+    htmlAttrs: {
+      lang: 'pt-br'
+    }
+  })
 </script>
 
 <script lang="ts">
